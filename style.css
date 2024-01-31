@@ -104,12 +104,12 @@ padding-top: .7rem;
   padding-top: 1rem;
   font-size: 1.4rem;
   font-family: sans-serif;
-  white-space: 20px;
+  word-spacing: 1px;
 }
 
 .details{
   padding-top: .7rem;
-  white-space: 2px;
+  word-spacing: 2px;
 }
  
 
