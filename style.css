@@ -1,23 +1,28 @@
-.container {
+.whiteboard {
     display: flex;
+    flex-direction: column;
+    min-height: 500px; /* Adjust as needed */
   }
   
-  .image-container {
-    flex: 0 0 50%;
+  .heading-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
     margin-right: 10px;
   }
   
-  .content {
-    flex: 1;
-  }
-  
   img {
-    width: 100%;
+    width: 100px; /* Adjust width as needed */
     height: auto;
   }
   
   .meta-info {
     font-size: 0.8em;
     color: #ccc;
+    margin-top: 10px;
   }
   
