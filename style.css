@@ -83,13 +83,14 @@ margin-top: -13px;
 }
 .img-nnnig{
   display: inline-block;
-  margin-top: 0px;
+  margin-top: -13px;
 
 }
 .img-nigro{
-  width: 85px;
-  height: 86px;
+  width: 87px;
+  height: 85px;
   display: inline-block;
+  margin-top: 0px;
   margin-left: 12px;
   border-radius: 17px 17px 17px 17px;
 }
