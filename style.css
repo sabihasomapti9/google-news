@@ -34,9 +34,9 @@ body{
  }
 .whiteboard{
   
- width:380px;
- height:480px;
-margin-top:-4px;
+ width: 380px;
+ height: 480px;
+
 border-radius:18px 18px 18px 18px;
 background-color: white;
 
@@ -49,18 +49,33 @@ h1{
   padding-top: 17px;
   font-size: 26px;
   font-weight: 600;
-  padding-left: 14px;
+  padding-left: 20px;
+}
+div .bo-bo:before{
+  content:'';
+  position: absolute;
+  left:7px;
+  bottom:0;
+  width:337px;
+ height: 0px; 
+  border-bottom: 2px solid #DDDDDD;
+
+}
+
+div.bo-bo{
   
+  z-index: 1;
+  position: relative;
+  
+  height: 0px;
+  margin-left: 13px;
+  padding: 0px;
+  color: #DDDDDD;
+
+
 }
 
-hr{
-inline-size: 344px;
-color:#DDDDDD;
-border-bottom: 1px solid;
-margin-top: -7px;
- 
 
-}
 .img-grter{
   width:27px;
   height:27px;
@@ -69,7 +84,6 @@ margin-top: -7px;
   
 }
 .whole{
-margin-top: -13px;
   padding-left:16px;
   margin-right: 18px;
 }
@@ -83,22 +97,24 @@ margin-top: -13px;
 }
 .img-nnnig{
   display: inline-block;
-  margin-top: -13px;
+  margin-right: 0px;
 
 }
 .img-nigro{
   width: 87px;
   height: 85px;
   display: inline-block;
-  margin-top: 0px;
-  margin-left: 12px;
+
+  float: right;
+  margin-right: 10px;
+  
   border-radius: 17px 17px 17px 17px;
 }
 .paragraph-1{
   word-spacing: 1px;
   font-size: 15px;
   font-weight: 510;
-margin-top: -25px;
+
 }
 .tw-item{
   display: inline-block;
@@ -113,4 +129,19 @@ margin-top: -25px;
 span{
   font-size: 9px;
   padding: 2px;
+  
+}
+.date{
+  margin-top: 0px;
+
+}
+
+.img-fullcov{
+  width:15px;
+  height: 15px;
+  
+  display:flex;
+  
+  
+
 }
