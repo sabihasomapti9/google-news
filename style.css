@@ -67,7 +67,17 @@
     display: block;
 }
 
-
+.whiteboard-container {
+    display: flex;
+    flex-direction: row; /* Arrange whiteboards horizontally */
+}
+.whiteboard {
+    background-color: white;
+    border: 1px solid black;
+    width: 300px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    margin: 1px; /* Add spacing around whiteboards */
+}
 
 
 
