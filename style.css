@@ -74,9 +74,10 @@
     padding-top: 10px;
     margin-left: 10px;
     flex-direction: row;
-    
-    
-
+}
+.img-trop{
+    width: 30px;
+    height: 30px;
 }
 
 .img-fuuul9{
