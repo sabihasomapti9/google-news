@@ -21,6 +21,12 @@
     margin-right: 20px;
     
 }
+.img-listed{
+    width: 12px;
+    height: 17px;
+    padding-left: 6px;
+    
+}
 .image-cust{
     color: #2541B2;
 
@@ -145,7 +151,7 @@
   }
   
   .heading {
-    margin: 10px 0; /* Add vertical spacing between headings */
+    margin: 0px 0; /* Add vertical spacing between headings */
     text-align: center;
   }
   
