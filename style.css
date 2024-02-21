@@ -172,4 +172,12 @@ span{
 .image-ex{
     width: 20px;
     height: 20px;
+
+}
+.head-column-1{
+    padding-left:10px;
+}
+.gh{
+    display:flex;
+    flex-direction: row;
 }
