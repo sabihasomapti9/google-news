@@ -46,8 +46,7 @@ body{
     align-items: center;
     padding-right: 10px;
     color:#2541B2;
-    margin-right: 20px;
-    
+    margin-right: 20px;   
 }
 
 .flex-container--2{
@@ -56,8 +55,8 @@ body{
     width: 20px;
     height: 20px;
     gap:210px;
-    padding-top: 5px;
-    
+    padding-left: 10px;
+    padding-top: 18px;
 }
 
 .image-yahoo{
@@ -76,7 +75,7 @@ body{
 .image-nig{
     width: 90px;
     height: 90px;
-    padding-top: 6px;
+    
     border-radius:13px 13px 13px 13px;
 }
 span{
@@ -85,31 +84,35 @@ span{
 .img-grter{
     width: 20px;
     height: 20px;
+    padding-top: 10px;
+    
     
 }
 .content{
     display: flex;
     flex-direction: row;
-    padding-top: 1px;
-    padding-left: 4px;
+    padding-top: 10px;
+    padding-left: 18px;
 }
 .img-fuuul9{
     width: 20px;
     height: 20px;
-    
+    padding-top: 0px;
     
 }
 .sp{
     display: flex;
     flex-direction: row;
     gap:60px;
+    padding-top: 12px;
 }
 .border{
     border-bottom: 1px solid;
     border-color:#DDDDDD;
-    inline-size: 280px;
-    margin-left: 13px;
-    padding-top: 4px;
+    inline-size: 310px;
+    margin-left: 25px;
+    padding-top: 9px;
+    
 }
 .container {
     display: flex;
@@ -119,14 +122,54 @@ span{
 .whiteboard {
     background-color: white;
     margin: 1px;
-    width: 350px;
-    height: 495px;
+    width: 367px;
+    height: 479px;
     border-radius: 23px 23px 23px 23px;
     padding-left: 0px;
 
 }
 .us{
+    padding-top: 10px;
     font-size: 19px;
     font-family:"open sans, sans serif" ;
 }
+.head-column{
+    padding-left:10px;
+}
+.shoo{
+    padding-left: 18px;
+    
+}
+.sp{
+    padding-left: 13px;
+    
+}
+.img-fuuu{
+    float:right;
+    width: 20px;
+    height: 20px;
+    padding-left:33px;
+    padding-top: 0px;
+}
+.whiteboard{
+    background-color: white;
+    margin: 1px;
+    width: 367px;
+    height: 479px;
+    border-radius: 23px 23px 23px 23px;
+    padding-left: 0px;
+}
 
+.flex-container--3{
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    height: 20px;
+    gap:210px;
+    padding-left: 10px;
+    padding-top: 18px;
+}
+.image-ex{
+    width: 20px;
+    height: 20px;
+}
