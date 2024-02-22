@@ -119,15 +119,7 @@ span{
     flex-direction: row; /* Arrange whiteboards horizontally */
     padding-left: 16px;
 }
-.whiteboard {
-    background-color: white;
-    margin: 1px;
-    width: 367px;
-    height: 479px;
-    border-radius: 23px 23px 23px 23px;
-    padding-left: 0px;
 
-}
 .us{
     padding-top: 10px;
     font-size: 19px;
@@ -152,6 +144,7 @@ span{
     padding-top: 0px;
 }
 .whiteboard{
+    
     background-color: white;
     margin: 1px;
     width: 367px;
@@ -176,8 +169,106 @@ span{
 }
 .head-column-1{
     padding-left:10px;
-}
-.gh{
-    display:flex;
+    display: flex;
     flex-direction: row;
+    gap:4px;
+}
+.fg{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bod{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+contai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Adjust spacing as needed */
+    width: 100vw;
+    margin: 0 auto;
+}
+
+white {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 32%; /* Adjust width as needed */
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Aligns elements vertically */
+    gap: 20px; /* Adjust spacing between elements */
+}
+h {
+    margin: 0; /* Remove default margins for both elements */
+}
+im{
+    width: 100%;
+    max-width: 200px; /* Adjust max-width as needed */
 }
