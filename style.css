@@ -101,7 +101,7 @@ span{
     width: 20px;
     height: 20px;
     padding-top: 3px;
-    padding-left: 91px;
+    padding-left: 92px;
     
 }
 .sp{
@@ -155,7 +155,7 @@ gap:4px;
     padding-top: 0px;
     display: flex;
     flex-direction: row;
-    gap:50px;
+    gap:46px;
     padding-top: 7px;
     padding-left: 18px;
 
@@ -164,15 +164,15 @@ gap:4px;
     float:right;
     width: 20px;
     height: 20px;
-     padding-left:79px;
-    padding-top: 6px;
+     padding-left:83px;
+    padding-top: 3px;
 }
 .whiteboard{
     
     background-color: white;
     margin: 1px;
     width: 367px;
-    height: 479px;
+    height: 497px;
     border-radius: 23px 23px 23px 23px;
     padding-left: 0px;
 }
@@ -248,9 +248,36 @@ padding-top: 13px;
     gap:4px;
 }
 
+.re-2{
+font-size: 17px;
+}
+.yooo{
+    padding-left: 18px;
+    
+}
+.sp-2{
+    padding-left: 21px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    gap:4;
+    padding-top: 7px;
+    padding-left: 18px;
+}
+.trd{
+    padding-top: 8px;
+    line-height: 22px;
+    padding-left: 3px;
 
-
-
+}
+.img-full{
+    float:right;
+    width: 20px;
+    height: 20px;
+    padding-left:138px;
+    padding-top: 2px;
+    
+}
 
 
 
