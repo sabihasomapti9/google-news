@@ -52,7 +52,8 @@ body{
 
 .flex-container--2{
     display: flex;
-    flex-direction: row;
+    
+    
     width: 20px;
     height: 20px;
     gap:165px;
@@ -168,17 +169,19 @@ gap:4px;
     padding-top: 3px;
 }
 .whiteboard{
-    
     background-color: white;
-    margin: 1px;
+    margin:1px;
     width: 367px;
     height: 497px;
     border-radius: 23px 23px 23px 23px;
     padding-left: 0px;
+    
+
+
 }
 
 .flex-container--3{
-    display: flex;
+    display:flex;
     flex-direction: row;
     width: 20px;
     height: 20px;
@@ -278,10 +281,37 @@ font-size: 17px;
     padding-top: 2px;
     
 }
+.whiteboard-1{
 
+    background-color: white;
+    margin: 1px;
+    width: 367px;
+    height: 497px;
+    border-radius: 23px 23px 23px 23px;
+    padding-left: 0px;
+}
 
-
-
+.content-1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 6px;
+    padding-left: 18px;
+}
+.flex-container--5{
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    height: 20px;
+    gap:167px;
+    padding-left: 7px;
+    padding-top: 13px;
+}
+.head-column-3{
+    padding-left:15px;
+    display: flex;
+    flex-direction: row;
+    gap:4px;
+}
 
 
 
